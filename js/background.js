@@ -23,17 +23,3 @@ document.addEventListener('DOMContentLoaded', function() {
     })
 })
 
-// function getRandomInt(min, max) {
-//     min = Math.ceil(min);
-//     max = Math.floor(max);
-//     return Math.floor(Math.random() * (max - min) + min); 
-// }
-  
-
-// const button = document.querySelector("button");
-
-// button.addEventListener("click", (event) => {
-//   button.textContent = `Click count: ${event.detail}`;
-// });
-  
-//`${img}`
