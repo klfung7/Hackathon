@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Coding Canines",
+    "version": "1.0",
+    "description": "Load a pop-up with emotional support puppies",
+
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ],
+
+    "background": {
+        "scripts": ["js/background.js"]
+    }, 
+
+    "browser_action" : {
+        "default_icon" : "images/icon.png",
+        "default_title" : "Coding Canines",
+        "default_popup" : "popup.html"
+    }
+
+}
