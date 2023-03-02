@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
             max = Math.floor(max);
             return Math.floor(Math.random() * (max - min) + min); 
         }
-    
+        
         let num = getRandomInt(1, 20);
     
         let img = document.createElement('img');
