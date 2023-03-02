@@ -15,26 +15,33 @@
         height: 305px;
         width: 302px;
         background: rgb(133, 164, 193);
-        background-image: url('/images/background3.png');
+        background-image: url('/images/background6.png');
         font-family: 'Indie Flower', cursive;
         }
     .button {
         display: block;
         margin-bottom: 5px;
         margin-top: 60px;
-        height: 32px;
-        width: 300px;
-        background-color: rgb(163, 203, 239);
-        border-color:rgb(133, 164, 193);
-        font-family: 'Indie Flower', cursive;
+        margin-right: 10px;
+        background-color: rgba(240, 248, 255, 0), 0.0;
+        border: 0;
+        padding: 0;
+        /* height: 32px;
+        width: 300px; */
+        /* background-color: rgb(163, 203, 239); */
+        /* border-color:rgb(133, 164, 193); */
+        /* font-family: 'Indie Flower', cursive;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 14px; */
     }
     .button:hover {
         cursor: url("https://img.icons8.com/material-rounded/24/null/cat-footprint.png"), auto;
-        height: 40px;
-        width:300px;
+        /* height: 40px;
+        width:300px; */
 
+    }
+    .buttonimg {
+        border-radius: 10px;
     }
     h1 {
         display: flex;
@@ -45,7 +52,10 @@
 </style>
 <body>
     <h1></h1>
-    <button class="button" style="border-radius: 10px; "> &#128062;&#x1F43E; Take a Pause With These Paws &#128062;&#x1F43E; </button>
+    <button class="button"> 
+        <img class = 'buttonimg' src="images/button.png">
+        <!-- &#128062;&#x1F43E; Take a Pause With These Paws &#128062;&#x1F43E; --->
+        </button>
 </body>
 <script src="js/background.js"></script>
 </html>
